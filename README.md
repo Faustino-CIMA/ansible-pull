@@ -1,2 +1,2 @@
 # ansible
-Configuring Cardano Nodes using ansible pull
+This is a try of configuring a Cardano Nodes using ansible-pull.
