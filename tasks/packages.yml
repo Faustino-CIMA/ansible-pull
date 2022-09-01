@@ -1,7 +1,40 @@
-- name: Install packages
+- name: Install Base Packages
   apt:
-    name: 
+    name:
       - htop
       - mc
       - tmux
+      - wget
+      - ufw
+      - net-tools
+      - curl
+      - jq
+      - bc
+      - xxd
+      - awk
+      - openssh
 
+- name: Install Cardano Related Packages
+  apt:
+    name:
+      - build-essential
+      - pkg-config
+      - autoconf
+      - automake
+      - make
+      - libssl-dev
+      - nload
+      - python3
+      - pip3
+      - tcptraceroute
+      - chrony
+      - libffi-dev
+      - libgmp-dev
+      - libssl-dev
+      - libtinfo-dev
+      - libsystemd-dev
+      - zlib1g-dev
+      - liblmdb-dev
+      - libncursesw5
+      - libtool
+      - g++
